@@ -31678,11 +31678,11 @@ A.qz.prototype={
 aF(){return new A.EF(B.m)}}
 A.EF.prototype={
 M(a,b){var s,r,q,p=null,o=t.l
-o=A.a4l("/Users/candicewright/developer/flutter_apps/planner/anotherplanit_website/assets/images/black_stars_background.jpeg",B.rS,b.a3(o).f.a.b,b.a3(o).f.a.a)
+o=A.a4l("assets/images/black_stars_background.jpeg",B.rS,b.a3(o).f.a.b,b.a3(o).f.a.a)
 s=t.E
 r=A.a([A.a0A(p,A.a4i(B.wW),p,new A.Xt(),p)],s)
 q=t.ao
-return A.Bz(B.U,A.a([o,new A.rs(new A.oG(r,0,B.b3,new A.Fr(p,p,1/0,56),p),A.ad9(A.a([new A.fb(B.U,p,p,new A.dr(new A.b5(10,10,10,10),A.a4l("/Users/candicewright/developer/flutter_apps/planner/anotherplanit_website/assets/images/planit_logo_title2.png",B.rR,p,p),p),p),new A.fb(B.U,p,p,A.AR(A.a([new A.dr(new A.b5(10,10,10,10),A.a44(A.AR(B.ya,B.bD,B.cZ,B.bT),new A.Xu(),A.Jx(p,p,new A.d4(B.w2,q),p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p)),p),new A.dr(new A.b5(10,10,10,10),A.a44(A.AR(B.yH,B.bD,B.cZ,B.bT),new A.Xv(),A.Jx(p,p,new A.d4(B.vW,q),p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p)),p)],s),B.bD,B.pc,B.bT),p)],s),B.pc),B.b3,p)],s),B.dh)}}
+return A.Bz(B.U,A.a([o,new A.rs(new A.oG(r,0,B.b3,new A.Fr(p,p,1/0,56),p),A.ad9(A.a([new A.fb(B.U,p,p,new A.dr(new A.b5(10,10,10,10),A.a4l("assets/images/planit_logo_title2.png",B.rR,p,p),p),p),new A.fb(B.U,p,p,A.AR(A.a([new A.dr(new A.b5(10,10,10,10),A.a44(A.AR(B.ya,B.bD,B.cZ,B.bT),new A.Xu(),A.Jx(p,p,new A.d4(B.w2,q),p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p)),p),new A.dr(new A.b5(10,10,10,10),A.a44(A.AR(B.yH,B.bD,B.cZ,B.bT),new A.Xv(),A.Jx(p,p,new A.d4(B.vW,q),p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p)),p)],s),B.bD,B.pc,B.bT),p)],s),B.pc),B.b3,p)],s),B.dh)}}
 A.Xt.prototype={
 $0(){$.oo().iV("open",["https://www.instagram.com/anotherplanit/"])},
 $S:0}
