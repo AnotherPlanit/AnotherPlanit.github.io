@@ -33500,7 +33500,7 @@ aI(){return new A.HG(B.m)}}
 A.HG.prototype={
 b1(){this.a_u()
 this.bz()},
-a_u(){var s=new A.Fj("assets/images/stars-video.mp4",new A.vu(B.n,B.n,B.dS,B.n,B.kO,!1,!1,!1,1,1,null,B.E,0,!1),A.al(0,null,!1,t.Y))
+a_u(){var s=new A.Fj("/images/stars-video.mp4",new A.vu(B.n,B.n,B.dS,B.n,B.kO,!1,!1,!1,1,1,null,B.E,0,!1),A.al(0,null,!1,t.Y))
 s.f5(0).aX(0,new A.a0B(this),t.P)
 this.d=s},
 M(a,b){var s=null,r="_controller",q=A.b(this.d,r).a.cy?A.qU(s,new A.yA(J.ag8(A.b(this.d,r).a),new A.vt(A.b(this.d,r),s),s),s,s,s,s,s):A.qU(s,s,s,s,s,s,s),p=t.G,o=A.a([new A.hN(B.a_,s,s,new A.hf(new A.bu(10,10,10,10),new A.rI(A.ak7(s,s,new A.qs("/images/planit_logo_title2.png",s,s)),B.tG,s),s),s),new A.hN(B.a_,s,s,new A.hf(new A.bu(10,10,10,10),A.akN("Coming July 2022",s,s,s),s),s)],p),n=A.aI([null,0],t.st,t.S)
