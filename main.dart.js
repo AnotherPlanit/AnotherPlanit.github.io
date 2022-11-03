@@ -10792,7 +10792,7 @@ _.c=c
 _.d=d
 _.$ti=e},
 NA:function NA(){},
-aeL(a,b,c){return new A.xE(a,c,b,null)},
+aeL(a,b,c,d){return new A.xE(a,c,b,d,null)},
 ajL(a){var s=a.n7(t.Np)
 if(s!=null)return s
 throw A.c(A.Vr(A.b([A.uZ("Scaffold.of() called with a context that does not contain a Scaffold."),A.ba("No Scaffold ancestor could be found starting from the context that was passed to Scaffold.of(). This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),A.V2('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),A.V2("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.of().\nA less elegant but more expedient solution is assign a GlobalKey to the Scaffold, then use the key.currentState property to obtain the ScaffoldState rather than using the Scaffold.of() function."),a.a74("The context used was")],t.G)))},
@@ -10880,11 +10880,12 @@ _.b=c
 _.c=null},
 a7G:function a7G(a,b){this.a=a
 this.b=b},
-xE:function xE(a,b,c,d){var _=this
+xE:function xE(a,b,c,d,e){var _=this
 _.e=a
 _.f=b
 _.dx=c
-_.a=d},
+_.fx=d
+_.a=e},
 q7:function q7(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.d=a
 _.e=b
@@ -37161,7 +37162,7 @@ h=A.eP(o,A.kp(A.E_(A.b([s,A.EI(A.eP(o,new A.u7(new A.Sp(500,2,0.4,!0,!0,B.af),r,
 l=b.X(l).f
 s=A.a9(b).I.e
 l=A.b([i,h,A.eP(o,A.kp(A.E_(A.b([new A.S(new A.a2(5,20,5,0),A.bh("Get in Touch",o,o,o,A.b8(o,o,B.j,o,o,o,o,o,o,o,o,s==null?o:s.r,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),o),new A.S(new A.a2(10,10,10,10),A.bh("Need help or want to chat, send us a message and we'll get back to you ASAP!",o,o,o,A.b8(o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bZ,o),o),new A.S(new A.a2(10,10,10,10),A.fw("/images/updated_logo.png",B.f0,100,100),o),new A.S(new A.a2(10,10,10,10),A.ak7(!0,B.bq,!1,o,p.r,B.d4,o,o,2,B.AE,!0,!0,!0,o,!1,o,o,o,o,o,!0,o,1,o,!1,"\u2022",o,o,o,o,!1,o,o,B.lQ,o,o,o,o,o,o,A.b8(o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bu,o,B.uE,o,o,o),o),new A.S(new A.a2(10,10,10,10),A.ak8(p.x,B.d4,B.AC,1,A.b8(o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)),o),new A.S(new A.a2(10,10,10,10),A.ak8(p.y,B.d4,B.AD,5,A.b8(o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)),o),new A.S(new A.a2(10,10,10,10),A.aie(B.MT,p.gOO(),A.D1(o,o,new A.c5(B.lC,g),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)),o),new A.S(new A.a2(10,10,10,10),A.I0(A.b([A.bh("Your privacy is a priority. Learn more in our ",o,o,o,A.b8(o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bZ,o),A.a4B(A.bh("Privacy Policy.",o,o,o,A.b8(o,o,B.d4,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.a96(b),o)],f),B.b3,B.cl,B.b9),o),new A.S(new A.a2(10,10,10,10),A.I0(A.b([A.a4B(B.Mw,new A.a97(b),o)],f),B.b3,B.cl,B.b9),o),A.I0(A.b([A.Fn(o,A.fw("/images/instagram.png",o,o,o),o,p.gaas(),o),new A.S(new A.a2(10,0,10,0),A.Fn(o,A.fw("/images/tiktok.png",o,o,o),o,p.gaat(),o),o)],f),B.b3,B.cl,B.b9)],f),B.b3,B.cl,B.b9),o,o),o,o,n,o,o,l.a.a)],f)
-return A.y6(B.N,A.b([k,A.aeL(j,B.a5,A.aeK(!0,A.E_(A.b([A.EI(new A.pQ(B.ao,!1,p.e,o,!1,o,A.ajV(l,!0,!0,!0),B.al,o,!0,o),1)],f),B.b3,B.ck,B.b9),!0))],f),B.dq)}}
+return A.y6(B.N,A.b([k,A.aeL(j,B.a5,A.aeK(!0,A.E_(A.b([A.EI(new A.pQ(B.ao,!1,p.e,o,!1,o,A.ajV(l,!0,!0,!0),B.al,o,!0,o),1)],f),B.b3,B.ck,B.b9),!0),!0)],f),B.dq)}}
 A.a99.prototype={
 $1(a){var s,r="_controller"
 A.lL("player is initialized")
@@ -37244,7 +37245,7 @@ b=A.bh("Emails and Communications",a1,a1,a1,A.b8(a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a
 a=A.a9(a6).I.f
 a=A.bh("CALIFORNIA PRIVACY RIGHTS",a1,a1,a1,A.b8(a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a==null?a1:a.r,a1,a1,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1)
 a0=A.a9(a6).I.f
-return A.aeL(a2,B.j,A.eP(a1,A.aiU(A.b([a3,B.Fh,B.FF,new A.S(new A.a2(15,5,15,5),a4,a1),B.Fj,new A.S(new A.a2(15,5,15,5),s,a1),B.Fq,new A.S(new A.a2(15,5,15,5),r,a1),B.G8,new A.S(new A.a2(15,5,15,5),q,a1),B.Gd,new A.S(new A.a2(15,5,15,5),p,a1),B.Fx,new A.S(new A.a2(15,5,15,5),o,a1),B.FT,new A.S(new A.a2(15,10,15,5),n,a1),B.FZ,B.FJ,B.FS,B.FB,B.Fp,B.FH,B.Gc,B.FY,B.Fo,B.Fm,B.FW,B.FM,B.FA,new A.S(new A.a2(15,10,15,5),m,a1),B.FR,new A.S(new A.a2(15,5,15,5),l,a1),B.Fw,new A.S(new A.a2(15,5,15,5),k,a1),B.FG,new A.S(new A.a2(15,5,15,5),j,a1),B.Fl,new A.S(new A.a2(15,5,15,5),i,a1),B.FL,new A.S(new A.a2(15,10,15,5),h,a1),B.Fz,new A.S(new A.a2(15,10,15,5),g,a1),new A.S(new A.a2(15,5,15,5),f,a1),B.G4,new A.S(new A.a2(15,5,15,5),e,a1),B.Fv,new A.S(new A.a2(15,10,15,5),d,a1),B.G0,new A.S(new A.a2(15,10,15,5),c,a1),B.FE,B.Fn,B.FV,new A.S(new A.a2(15,5,15,5),b,a1),B.G9,B.FN,B.Gb,new A.S(new A.a2(15,10,15,5),a,a1),B.FX,new A.S(new A.a2(15,10,15,5),A.bh("Contact Us",a1,a1,a1,A.b8(a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a0==null?a1:a0.r,a1,a1,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),B.FK],t.F)),a1,a1,a1,new A.a2(12,12,12,12),a1,a1))},
+return A.aeL(a2,B.j,A.eP(a1,A.aiU(A.b([a3,B.Fh,B.FF,new A.S(new A.a2(15,5,15,5),a4,a1),B.Fj,new A.S(new A.a2(15,5,15,5),s,a1),B.Fq,new A.S(new A.a2(15,5,15,5),r,a1),B.G8,new A.S(new A.a2(15,5,15,5),q,a1),B.Gd,new A.S(new A.a2(15,5,15,5),p,a1),B.Fx,new A.S(new A.a2(15,5,15,5),o,a1),B.FT,new A.S(new A.a2(15,10,15,5),n,a1),B.FZ,B.FJ,B.FS,B.FB,B.Fp,B.FH,B.Gc,B.FY,B.Fo,B.Fm,B.FW,B.FM,B.FA,new A.S(new A.a2(15,10,15,5),m,a1),B.FR,new A.S(new A.a2(15,5,15,5),l,a1),B.Fw,new A.S(new A.a2(15,5,15,5),k,a1),B.FG,new A.S(new A.a2(15,5,15,5),j,a1),B.Fl,new A.S(new A.a2(15,5,15,5),i,a1),B.FL,new A.S(new A.a2(15,10,15,5),h,a1),B.Fz,new A.S(new A.a2(15,10,15,5),g,a1),new A.S(new A.a2(15,5,15,5),f,a1),B.G4,new A.S(new A.a2(15,5,15,5),e,a1),B.Fv,new A.S(new A.a2(15,10,15,5),d,a1),B.G0,new A.S(new A.a2(15,10,15,5),c,a1),B.FE,B.Fn,B.FV,new A.S(new A.a2(15,5,15,5),b,a1),B.G9,B.FN,B.Gb,new A.S(new A.a2(15,10,15,5),a,a1),B.FX,new A.S(new A.a2(15,10,15,5),A.bh("Contact Us",a1,a1,a1,A.b8(a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a0==null?a1:a0.r,a1,a1,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1),B.FK],t.F)),a1,a1,a1,new A.a2(12,12,12,12),a1,a1),a1)},
 m(a){this.bi(0)}}
 A.nA.prototype={
 aJ(){return new A.OW(B.k)}}
@@ -37265,7 +37266,7 @@ o=A.bh("Use Restrictions",l,l,l,A.b8(l,l,l,l,l,l,l,l,l,l,l,o==null?l:o.r,l,l,l,l
 n=A.a9(b).I.f
 n=A.bh("Disclaimers",l,l,l,A.b8(l,l,l,l,l,l,l,l,l,l,l,n==null?l:n.r,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l)
 m=A.a9(b).I.f
-return A.aeL(k,B.j,A.eP(l,A.aiU(A.b([j,B.G5,B.G3,new A.S(new A.a2(15,5,15,5),i,l),B.Fs,new A.S(new A.a2(15,5,15,5),s,l),B.Fk,new A.S(new A.a2(15,5,15,5),r,l),B.FD,B.G1,B.Ft,B.Fu,B.FU,B.Fr,new A.S(new A.a2(15,5,15,5),q,l),B.G6,B.FC,B.FQ,B.FO,new A.S(new A.a2(15,5,15,5),p,l),B.Ga,new A.S(new A.a2(15,5,15,5),o,l),B.G7,new A.S(new A.a2(15,5,15,5),n,l),B.Fi,B.Fy,B.G_,new A.S(new A.a2(15,5,15,5),A.bh("Contact Information",l,l,l,A.b8(l,l,l,l,l,l,l,l,l,l,l,m==null?l:m.r,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l),l),B.G2],t.F)),l,l,l,new A.a2(12,12,12,12),l,l))},
+return A.aeL(k,B.j,A.eP(l,A.aiU(A.b([j,B.G5,B.G3,new A.S(new A.a2(15,5,15,5),i,l),B.Fs,new A.S(new A.a2(15,5,15,5),s,l),B.Fk,new A.S(new A.a2(15,5,15,5),r,l),B.FD,B.G1,B.Ft,B.Fu,B.FU,B.Fr,new A.S(new A.a2(15,5,15,5),q,l),B.G6,B.FC,B.FQ,B.FO,new A.S(new A.a2(15,5,15,5),p,l),B.Ga,new A.S(new A.a2(15,5,15,5),o,l),B.G7,new A.S(new A.a2(15,5,15,5),n,l),B.Fi,B.Fy,B.G_,new A.S(new A.a2(15,5,15,5),A.bh("Contact Information",l,l,l,A.b8(l,l,l,l,l,l,l,l,l,l,l,m==null?l:m.r,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l),l),B.G2],t.F)),l,l,l,new A.a2(12,12,12,12),l,l),l)},
 m(a){this.bi(0)}}
 A.So.prototype={}
 A.oG.prototype={
@@ -43192,8 +43193,8 @@ a02(){var s,r=this.c
 r.toString
 s=A.Hf(r)
 if(s!=null&&s.d.length!==0)s.hX(0,B.aG,B.bC)},
-gl7(){this.a.toString
-return!0},
+gl7(){var s=this.a.fx
+return s!==!1},
 aX(){var s,r=this,q=null
 r.bx()
 s=r.c
