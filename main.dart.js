@@ -37212,7 +37212,7 @@ while(true)switch(s){case 0:m=t.N
 l=B.aW.KY(A.aA(["name",q.r.a.a,"email",q.x.a.a,"message",q.y.a.a],m,m),null)
 A.lN(l)
 s=2
-return A.U(A.aAX(A.iI("https://serve-anotherplanit.com:7343/contactUs",0,null),l,A.aA(["Content-Type","application/json"],m,m)),$async$ra)
+return A.U(A.aAX(A.iI("https://serve-anotherplanit.com:7343/contactUs",0,null),l,A.aA(["Content-Type","application/json","Access-Control-Allow-Origin","*"],m,m)),$async$ra)
 case 2:p=b
 m=p.b
 A.lN("Response status: "+m)
