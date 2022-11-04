@@ -37243,31 +37243,32 @@ return A.U(A.C6(A.iH("https://apps.apple.com/us/app/another-planit-planner/id163
 case 2:if(!b)throw A.c("Could not launch")
 return A.M(null,r)}})
 return A.N($async$v4,r)},
-T(a,a0){var s,r,q,p,o,n,m,l,k=this,j=null,i=17976931348623157e292,h="_controller",g=t.w,f=A.fx("/images/black_stars_background.jpeg",B.vZ,a0.X(g).f.a.b,a0.X(g).f.a.a),e=a0.X(g).f,d=A.a(k.d,h).a.cy?A.EK(new A.S(new A.a1(10,10,10,10),A.uk(A.ko(15),new A.CE(J.aqZ(A.a(k.d,h).a),new A.yM(A.a(k.d,h),j),j)),j),2):A.EK(new A.fZ(B.N,j,j,new A.S(new A.a1(4,4,4,4),A.fx("/images/text_logo.png",j,j,j),j),j),1),c=t.GJ,b=t.F
-e=A.eR(j,A.kq(A.E1(A.b([d,new A.Fb(0.5,A.aig(A.I2(B.Bx,B.b4,B.cm,B.ba),k.gaau(),A.D3(j,j,new A.c5(B.a7,c),j,j,j,j,j,j,j,j,j,j,new A.c5(new A.df(A.ko(18),B.vO),t.Fc),j,j,j,j,j)),j),B.Gd],b),B.b4,B.cl,B.ba),j,j),j,j,i,j,j,e.a.a)
-d=a0.X(g).f
-s=A.EK(new A.fZ(B.N,j,j,A.fx("/images/another-planit-blurb.jpg",j,j,j),j),1)
-r=A.b([A.uk(A.CW(new A.bD(10,10)),A.fx("/images/1.jpg",B.cH,j,j)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/2.jpg",B.cH,j,j)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/3.jpg",B.cH,j,j)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/4.jpg",B.cH,j,j)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/5.jpg",B.cH,j,j))],b)
+T(a0,a1){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=17976931348623157e292,g="_controller",f=t.w,e=A.fx("/images/black_stars_background.jpeg",B.vZ,a1.X(f).f.a.b,a1.X(f).f.a.a),d=a1.X(f).f,c=A.a(j.d,g).a.cy?A.EK(new A.S(new A.a1(10,10,10,10),A.uk(A.ko(15),new A.CE(J.aqZ(A.a(j.d,g).a),new A.yM(A.a(j.d,g),i),i)),i),2):A.EK(new A.fZ(B.N,i,i,new A.S(new A.a1(4,4,4,4),A.fx("/images/text_logo.png",i,i,i),i),i),1),b=t.GJ,a=t.F
+d=A.eR(i,A.kq(A.E1(A.b([c,new A.Fb(0.5,A.aig(A.I2(B.Bx,B.b4,B.cm,B.ba),j.gaau(),A.D3(i,i,new A.c5(B.a7,b),i,i,i,i,i,i,i,i,i,i,new A.c5(new A.df(A.ko(18),B.vO),t.Fc),i,i,i,i,i)),i),B.Gd],a),B.b4,B.cl,B.ba),i,i),i,i,h,i,i,d.a.a)
+c=a1.X(f).f
+s=A.EK(new A.fZ(B.N,i,i,A.fx("/images/another-planit-blurb.jpg",i,i,i),i),1)
+r=A.b([A.uk(A.CW(new A.bD(10,10)),A.fx("/images/1.jpg",B.cH,i,i)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/2.jpg",B.cH,i,i)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/3.jpg",B.cH,i,i)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/4.jpg",B.cH,i,i)),A.uk(A.CW(new A.bD(10,10)),A.fx("/images/5.jpg",B.cH,i,i))],a)
 q=$.X
-d=A.eR(j,A.kq(A.E1(A.b([s,A.EK(A.eR(j,new A.u9(new A.Sq(500,2,0.4,!0,!0,B.af),r,new A.Sp(new A.aM(new A.a6(q,t.wC),t.Fe)),5,j),j,j,j,new A.a1(0,0,0,30),j,j),2)],b),B.b4,B.cl,B.ba),j,j),B.j,j,i,j,j,d.a.a)
-g=a0.X(g).f
-s=A.a9(a0).I.e
-s=A.bh("Get in Touch",j,j,j,A.b3(j,j,B.j,j,j,j,j,j,j,j,j,s==null?j:s.r,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j)
-r=A.bh("Need help or want to chat, send us a message and we'll get back to you ASAP!",j,j,j,A.b3(j,j,B.j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),B.c_,j)
-q=A.fx("/images/updated_logo.png",B.f_,100,100)
-p=A.b3(j,j,B.j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
-o=A.b3(j,j,B.br,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
-n=A.Xf(B.Ap,B.j)
-p=A.ak9(!0,B.bq,!1,j,k.r,B.br,j,j,2,A.XK(j,j,j,j,j,j,j,j,!0,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),j,j,j,j,j,j,j,j,j,j,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),j,j,j,j,j,o,"Name",j,j,n,j,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j),!0,!0,!0,j,!1,j,j,j,j,j,!0,j,1,j,!1,"\u2022",j,j,j,j,!1,j,j,B.lP,j,j,j,j,j,j,p,B.bv,j,B.uF,j,j,j)
-n=A.b3(j,j,B.j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
-o=A.b3(j,j,B.br,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
-m=A.Xf(B.Am,B.j)
-n=A.aka(k.x,B.br,A.XK(j,j,j,j,j,j,j,j,!0,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),j,j,j,j,B.j,j,j,j,j,j,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),j,j,j,j,j,o,"Email",j,j,m,j,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j),1,n)
-m=A.b3(j,j,B.j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
-o=A.b3(j,j,B.br,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j)
-l=A.Xf(B.Ao,B.j)
-g=A.b([e,d,A.eR(j,A.kq(A.E1(A.b([new A.S(new A.a1(5,20,5,0),s,j),new A.S(new A.a1(10,10,10,10),r,j),new A.S(new A.a1(10,10,10,10),q,j),new A.S(new A.a1(10,10,10,10),p,j),new A.S(new A.a1(10,10,10,10),n,j),new A.S(new A.a1(10,10,10,10),A.aka(k.y,B.br,A.XK(j,j,j,j,j,j,j,j,!0,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),j,j,j,j,B.j,j,j,j,j,j,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),j,j,j,j,j,o,"Message",j,j,l,j,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j),5,m),j),new A.S(new A.a1(10,10,10,10),A.aig(B.MT,k.gOQ(),A.D3(j,j,new A.c5(B.lB,c),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)),j),new A.S(new A.a1(10,10,10,10),A.I2(A.b([A.bh("Your privacy is a priority. Learn more in our ",j,j,j,A.b3(j,j,B.j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),B.c_,j),A.a4E(A.bh("Privacy Policy.",j,j,j,A.b3(j,j,B.br,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j),new A.a99(a0),j)],b),B.b4,B.cm,B.ba),j),new A.S(new A.a1(10,10,10,10),A.I2(A.b([A.a4E(B.Mw,new A.a9a(a0),j)],b),B.b4,B.cm,B.ba),j),A.I2(A.b([A.Fp(j,A.fx("/images/instagram.png",j,j,j),j,k.gaav(),j),new A.S(new A.a1(10,0,10,0),A.Fp(j,A.fx("/images/tiktok.png",j,j,j),j,k.gaaw(),j),j)],b),B.b4,B.cm,B.ba)],b),B.b4,B.cm,B.ba),j,j),j,j,i,j,j,g.a.a)],b)
-return A.y9(B.N,A.b([f,A.aeM(j,B.a7,A.aeL(!0,A.E1(A.b([A.EK(new A.pS(B.ap,!1,k.e,j,!1,j,A.ajX(g,!0,!0,!0),B.am,j,!0,j),1)],b),B.b4,B.cl,B.ba),!0))],b),B.dq)}}
+c=A.eR(i,A.kq(A.E1(A.b([s,A.EK(A.eR(i,new A.u9(new A.Sq(500,2,0.4,!0,!0,B.af),r,new A.Sp(new A.aM(new A.a6(q,t.wC),t.Fe)),5,i),i,i,i,new A.a1(0,0,0,30),i,i),2)],a),B.b4,B.cl,B.ba),i,i),B.j,i,h,i,i,c.a.a)
+s=a1.X(f).f
+r=A.a9(a1).I.e
+r=A.bh("Get in Touch",i,i,i,A.b3(i,i,B.j,i,i,i,i,i,i,i,i,r==null?i:r.r,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i)
+q=A.bh("Need help or want to chat, send us a message and we'll get back to you ASAP!",i,i,i,A.b3(i,i,B.j,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.c_,i)
+p=A.fx("/images/updated_logo.png",B.f_,100,100)
+o=A.b3(i,i,B.j,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
+n=A.b3(i,i,B.br,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
+m=A.Xf(B.Ap,B.j)
+o=A.ak9(!0,B.bq,!1,i,j.r,B.br,i,i,2,A.XK(i,i,i,i,i,i,i,i,!0,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),i,i,i,i,i,i,i,i,i,i,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),i,i,i,i,i,n,"Name",i,i,m,i,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),!0,!0,!0,i,!1,i,i,i,i,i,!0,i,1,i,!1,"\u2022",i,i,i,i,!1,i,i,B.lP,i,i,i,i,i,i,o,B.bv,i,B.uF,i,i,i)
+m=A.b3(i,i,B.j,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
+n=A.b3(i,i,B.br,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
+l=A.Xf(B.Am,B.j)
+m=A.aka(j.x,B.br,A.XK(i,i,i,i,i,i,i,i,!0,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),i,i,i,i,B.j,i,i,i,i,i,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),i,i,i,i,i,n,"Email",i,i,l,i,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),1,m)
+f=a1.X(f).f
+l=A.b3(i,i,B.j,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
+n=A.b3(i,i,B.br,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
+k=A.Xf(B.Ao,B.j)
+s=A.b([d,c,A.eR(i,A.kq(A.E1(A.b([new A.S(new A.a1(5,20,5,0),r,i),new A.S(new A.a1(10,10,10,10),q,i),new A.S(new A.a1(10,10,10,10),p,i),new A.S(new A.a1(10,10,10,10),o,i),new A.S(new A.a1(10,10,10,10),m,i),new A.S(new A.a1(0,0,0,f.e.d),A.aka(j.y,B.br,A.XK(i,i,i,i,i,i,i,i,!0,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),i,i,i,i,B.j,i,i,i,i,i,new A.dS(4,A.ko(20),new A.cn(B.j,2,B.al)),i,i,i,i,i,n,"Message",i,i,k,i,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),5,l),i),new A.S(new A.a1(10,10,10,10),A.aig(B.MT,j.gOQ(),A.D3(i,i,new A.c5(B.lB,b),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),i),new A.S(new A.a1(10,10,10,10),A.I2(A.b([A.bh("Your privacy is a priority. Learn more in our ",i,i,i,A.b3(i,i,B.j,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.c_,i),A.a4E(A.bh("Privacy Policy.",i,i,i,A.b3(i,i,B.br,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i),new A.a99(a1),i)],a),B.b4,B.cm,B.ba),i),new A.S(new A.a1(10,10,10,10),A.I2(A.b([A.a4E(B.Mw,new A.a9a(a1),i)],a),B.b4,B.cm,B.ba),i),A.I2(A.b([A.Fp(i,A.fx("/images/instagram.png",i,i,i),i,j.gaav(),i),new A.S(new A.a1(10,0,10,0),A.Fp(i,A.fx("/images/tiktok.png",i,i,i),i,j.gaaw(),i),i)],a),B.b4,B.cm,B.ba)],a),B.b4,B.cm,B.ba),i,i),i,i,h,i,i,s.a.a)],a)
+return A.y9(B.N,A.b([e,A.aeM(i,B.a7,A.aeL(!0,A.E1(A.b([A.EK(new A.pS(B.ap,!1,j.e,i,!1,i,A.ajX(s,!0,!0,!0),B.am,i,!0,i),1)],a),B.b4,B.cl,B.ba),!0))],a),B.dq)}}
 A.a9c.prototype={
 $1(a){var s,r="_controller"
 A.lM("player is initialized")
